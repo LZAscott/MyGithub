@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6737FF8E1D1832BE0042AE27 /* NSObject+ScottKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6737FF8D1D1832BE0042AE27 /* NSObject+ScottKeyValue.m */; };
+		67924E541D1594400057BF7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67924E531D1594400057BF7B /* main.m */; };
+		67924E5E1D1596BC0057BF7B /* ScottUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 67924E5D1D1596BC0057BF7B /* ScottUser.m */; };
+		67924E621D1598A00057BF7B /* NSObject+ScottProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 67924E611D1598A00057BF7B /* NSObject+ScottProperty.m */; };
+		67DC87FA1D16E7F500D28A1C /* ScottPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DC87F91D16E7F500D28A1C /* ScottPropertyType.m */; };
+		67DC87FD1D16E99900D28A1C /* ScottProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DC87FC1D16E99900D28A1C /* ScottProperty.m */; };
+		67E4DCA11D1980940060B87E /* ScottStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4DCA01D1980940060B87E /* ScottStatus.m */; };
+		67E4DCA41D1982060060B87E /* ScottStatusResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4DCA31D1982060060B87E /* ScottStatusResult.m */; };
+		67E4DCA71D1982130060B87E /* ScottAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4DCA61D1982130060B87E /* ScottAd.m */; };
+		67E4DCAA1D19822D0060B87E /* ScottIdAndDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4DCA91D19822D0060B87E /* ScottIdAndDescription.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67924E4E1D1594400057BF7B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6737FF8C1D1832BE0042AE27 /* NSObject+ScottKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ScottKeyValue.h"; sourceTree = "<group>"; };
+		6737FF8D1D1832BE0042AE27 /* NSObject+ScottKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ScottKeyValue.m"; sourceTree = "<group>"; };
+		67924E501D1594400057BF7B /* ScottExtension */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScottExtension; sourceTree = BUILT_PRODUCTS_DIR; };
+		67924E531D1594400057BF7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67924E5C1D1596BC0057BF7B /* ScottUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottUser.h; sourceTree = "<group>"; };
+		67924E5D1D1596BC0057BF7B /* ScottUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottUser.m; sourceTree = "<group>"; };
+		67924E601D1598A00057BF7B /* NSObject+ScottProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ScottProperty.h"; sourceTree = "<group>"; };
+		67924E611D1598A00057BF7B /* NSObject+ScottProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ScottProperty.m"; sourceTree = "<group>"; };
+		67DC87F81D16E7F500D28A1C /* ScottPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottPropertyType.h; sourceTree = "<group>"; };
+		67DC87F91D16E7F500D28A1C /* ScottPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottPropertyType.m; sourceTree = "<group>"; };
+		67DC87FB1D16E99900D28A1C /* ScottProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottProperty.h; sourceTree = "<group>"; };
+		67DC87FC1D16E99900D28A1C /* ScottProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottProperty.m; sourceTree = "<group>"; };
+		67E4DC9F1D1980940060B87E /* ScottStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottStatus.h; sourceTree = "<group>"; };
+		67E4DCA01D1980940060B87E /* ScottStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottStatus.m; sourceTree = "<group>"; };
+		67E4DCA21D1982060060B87E /* ScottStatusResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottStatusResult.h; sourceTree = "<group>"; };
+		67E4DCA31D1982060060B87E /* ScottStatusResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottStatusResult.m; sourceTree = "<group>"; };
+		67E4DCA51D1982130060B87E /* ScottAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottAd.h; sourceTree = "<group>"; };
+		67E4DCA61D1982130060B87E /* ScottAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottAd.m; sourceTree = "<group>"; };
+		67E4DCA81D19822D0060B87E /* ScottIdAndDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottIdAndDescription.h; sourceTree = "<group>"; };
+		67E4DCA91D19822D0060B87E /* ScottIdAndDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottIdAndDescription.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67924E4D1D1594400057BF7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67924E471D1594400057BF7B = {
+			isa = PBXGroup;
+			children = (
+				67924E521D1594400057BF7B /* ScottExtension */,
+				67924E511D1594400057BF7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67924E511D1594400057BF7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67924E501D1594400057BF7B /* ScottExtension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67924E521D1594400057BF7B /* ScottExtension */ = {
+			isa = PBXGroup;
+			children = (
+				67924E5F1D1598800057BF7B /* Category */,
+				67924E5B1D1596AE0057BF7B /* Class */,
+				67924E5A1D1596A60057BF7B /* Model */,
+				67924E531D1594400057BF7B /* main.m */,
+			);
+			path = ScottExtension;
+			sourceTree = "<group>";
+		};
+		67924E5A1D1596A60057BF7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67924E5C1D1596BC0057BF7B /* ScottUser.h */,
+				67924E5D1D1596BC0057BF7B /* ScottUser.m */,
+				67E4DC9F1D1980940060B87E /* ScottStatus.h */,
+				67E4DCA01D1980940060B87E /* ScottStatus.m */,
+				67E4DCA21D1982060060B87E /* ScottStatusResult.h */,
+				67E4DCA31D1982060060B87E /* ScottStatusResult.m */,
+				67E4DCA51D1982130060B87E /* ScottAd.h */,
+				67E4DCA61D1982130060B87E /* ScottAd.m */,
+				67E4DCA81D19822D0060B87E /* ScottIdAndDescription.h */,
+				67E4DCA91D19822D0060B87E /* ScottIdAndDescription.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67924E5B1D1596AE0057BF7B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				67DC87F81D16E7F500D28A1C /* ScottPropertyType.h */,
+				67DC87F91D16E7F500D28A1C /* ScottPropertyType.m */,
+				67DC87FB1D16E99900D28A1C /* ScottProperty.h */,
+				67DC87FC1D16E99900D28A1C /* ScottProperty.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		67924E5F1D1598800057BF7B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				67924E601D1598A00057BF7B /* NSObject+ScottProperty.h */,
+				67924E611D1598A00057BF7B /* NSObject+ScottProperty.m */,
+				6737FF8C1D1832BE0042AE27 /* NSObject+ScottKeyValue.h */,
+				6737FF8D1D1832BE0042AE27 /* NSObject+ScottKeyValue.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67924E4F1D1594400057BF7B /* ScottExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67924E571D1594400057BF7B /* Build configuration list for PBXNativeTarget "ScottExtension" */;
+			buildPhases = (
+				67924E4C1D1594400057BF7B /* Sources */,
+				67924E4D1D1594400057BF7B /* Frameworks */,
+				67924E4E1D1594400057BF7B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScottExtension;
+			productName = ScottExtension;
+			productReference = 67924E501D1594400057BF7B /* ScottExtension */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67924E481D1594400057BF7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Scott_Mr;
+				TargetAttributes = {
+					67924E4F1D1594400057BF7B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 67924E4B1D1594400057BF7B /* Build configuration list for PBXProject "ScottExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67924E471D1594400057BF7B;
+			productRefGroup = 67924E511D1594400057BF7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67924E4F1D1594400057BF7B /* ScottExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67924E4C1D1594400057BF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E4DCA11D1980940060B87E /* ScottStatus.m in Sources */,
+				67DC87FD1D16E99900D28A1C /* ScottProperty.m in Sources */,
+				67924E5E1D1596BC0057BF7B /* ScottUser.m in Sources */,
+				67924E621D1598A00057BF7B /* NSObject+ScottProperty.m in Sources */,
+				67DC87FA1D16E7F500D28A1C /* ScottPropertyType.m in Sources */,
+				67924E541D1594400057BF7B /* main.m in Sources */,
+				67E4DCA71D1982130060B87E /* ScottAd.m in Sources */,
+				67E4DCA41D1982060060B87E /* ScottStatusResult.m in Sources */,
+				6737FF8E1D1832BE0042AE27 /* NSObject+ScottKeyValue.m in Sources */,
+				67E4DCAA1D19822D0060B87E /* ScottIdAndDescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67924E551D1594400057BF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		67924E561D1594400057BF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		67924E581D1594400057BF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67924E591D1594400057BF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67924E4B1D1594400057BF7B /* Build configuration list for PBXProject "ScottExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67924E551D1594400057BF7B /* Debug */,
+				67924E561D1594400057BF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67924E571D1594400057BF7B /* Build configuration list for PBXNativeTarget "ScottExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67924E581D1594400057BF7B /* Debug */,
+				67924E591D1594400057BF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67924E481D1594400057BF7B /* Project object */;
+}
